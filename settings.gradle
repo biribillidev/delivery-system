@@ -1,0 +1,8 @@
+// Groups the four independent projects so IntelliJ imports them together.
+// Each project can still be run on its own with its own ./gradlew.
+rootProject.name = 'delivery-system'
+
+includeBuild 'eureka-server'
+includeBuild 'order-service'
+includeBuild 'payment-service'
+includeBuild 'review-service'
